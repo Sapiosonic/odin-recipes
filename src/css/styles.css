@@ -1,13 +1,35 @@
-*{
-    background-color: bisque;
-    
+/* website palette
+header: #B7B1F2
+main: #FDB7EA
+section: #FFDCCC 
+footer: #FBF3B9
+*/
+
+* {
+    font-family:'Courier New', Courier, monospace;
 }
 
-a{
+header {
+    background-color: #B7B1F2;
+}
+
+a {
     color:blueviolet;
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
+}
+
+main {
+    background-color: #FDB7EA;
+}
+
+section {
+    background-color: #FFDCCC;
+}
+
+footer {
+    background-color: #FBF3B9;
 }
