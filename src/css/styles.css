@@ -7,15 +7,28 @@ footer: #FBF3B9
 
 * {
     font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 header {
     background-color: #B7B1F2;
+    padding: 30px;
 }
 
 a {
     color:blueviolet;
     text-decoration: none;
+}
+
+.btn-recipe {
+    width: 15px;
+    height: 10px;
+    color: #FFFFFF;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 ul {
